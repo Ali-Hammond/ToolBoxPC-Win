@@ -46,7 +46,7 @@ Open `Command Prompt` or `Git Bash`.
 Run the following command to clone the repository:
 
 ```
-git clone https://github.com/Ali-Hammond/ToolboxPC-Win.git
+git clone https://github.com/yourusername/ToolboxPC-Win.git
 ```
 ---
 
@@ -69,11 +69,13 @@ Ensure that the Build Configuration is set to `Release`, not `Debug`.
 
 **Step 7: Build the Project**
 
-In `Qt Creator`, click the Build button (or press Ctrl + Shift + B) to start building the project.
+In `Qt Creator`, click the Build button (or press `Ctrl + Shift + B`) to start building the project.
 `Qt Creator` will use `CMake` to generate the necessary build files and build the project with the selected kit.
 The executable will be generated in the build directory
 
 (e.g., `ToolboxPC-Win/build/ToolboxPC-Win-Desktop_Qt_6_8_2_MinGW_64bit-Release`).
+
+If you would like to run the project to test without having to Recompile the executable each time, simply press `CTRL + R` inside of `Qt Creator`.
 
 ---
 
