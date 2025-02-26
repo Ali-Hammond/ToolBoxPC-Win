@@ -1,14 +1,12 @@
-<h2 style="border-bottom: none; font-size: 1.5rem;">ToolboxPC-Win Setup Guide</h2>
+## ToolboxPC-Win Setup Guide
 
 This guide will walk you through setting up, building, and running ToolboxPC-Win using `Qt Creator` and `CMake` with `Qt 6.8`.
 
 ---
 
-<h2 style="border-bottom: none; font-size: 2.0rem;">
-    Important: Read the <a href="LICENSE">LICENSE</a>
-</h2>
+# Important: Read the LICENSE
 
-<h2 style="border-bottom: none; font-size: 1rem;"> Before forking the ToolboxPC-Win repository or making any modifications to the code, please be sure to read the LICENSE file included in the repository. The <a href="LICENSE">LICENSE</a> outlines the terms and conditions for using, modifying, and redistributing the code. By forking or contributing to this project, you agree to comply with the terms of the LICENSE. It is important to fully understand the permissions and limitations set by the license before proceeding with any changes or distribution.</h2>
+Before forking the ToolboxPC-Win repository or making any modifications to the code, please be sure to read the LICENSE file included in the repository. The LICENSE outlines the terms and conditions for using, modifying, and redistributing the code. By forking or contributing to this project, you agree to comply with the terms of the LICENSE. It is important to fully understand the permissions and limitations set by the license before proceeding with any changes or distribution.
 
 ---
 
@@ -81,7 +79,7 @@ The application should now run as a fully built, release version.
 
 ---
 
-<h2 style="border-bottom: none; font-size: 1.3rem;">Issue Reporting</h2>
+### Issue Reporting
 
 If you encounter any issues not covered in this guide, please feel free to open a new issue using the Issues tab on the project’s GitHub repository.
 
