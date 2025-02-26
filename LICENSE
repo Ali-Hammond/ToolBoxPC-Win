@@ -1,0 +1,39 @@
+Custom License for [PC-TOOLS-WINDOWS]
+
+Copyright (c) [2025] [Ali Hammond]
+
+1. Grant of Rights
+
+You are granted a personal, non-commercial, and educational license to use, modify, and distribute the source code under the following conditions:
+
+- Use: You may use the code for personal, educational, or non-commercial purposes only. This includes experimenting, learning, and building projects based on the code.
+- Modification: You may modify the code to suit your personal needs, but you must maintain clear attribution to the original author(s) when redistributing or sharing the code. You may not remove or obscure any original attribution in the modified code.
+- Distribution: You may distribute modified versions of the code, provided that you clearly indicate the modifications made and include the same license with the modified code. However, you cannot distribute the original or modified code as proprietary or under your own name. Redistribution of the compiled version of the code is permitted, but must still comply with this license and cannot be used for commercial purposes.
+
+2. Restrictions
+
+The following restrictions apply to this license:
+
+- Commercial Use: You may not use the code or any modifications of it in any commercial, for-profit, or revenue-generating project, either directly or indirectly.
+- Redistribution: You may not redistribute the code as a standalone product or as part of a commercial service or software product. If you want to share the source code with someone else, you must direct them to the original repository where they can obtain it under this same license.
+- No Direct Selling: You may not sell, rent, or lease the code or its modifications for financial gain.
+
+3. Attribution
+
+If you share the code or modifications, you must:
+
+- Give appropriate credit to the original author(s).
+- Include a link to the original project/repository.
+- Indicate if changes were made to the original code.
+
+4. Third-Party Dependencies
+
+If the code relies on or integrates with third-party libraries or assets, users must comply with the licenses of those dependencies in addition to this license.
+
+5. No Warranty
+
+The code is provided "as is", without warranty of any kind, express or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, and non-infringement. The author(s) are not responsible for any damages arising from the use of the code, including but not limited to data loss, loss of profits, or business interruption. Any modifications or forks of this project are the sole responsibility of the creator. The original author does not endorse or take responsibility for any consequences of using or distributing modified versions of the code.
+
+Donations
+
+The original author may accept voluntary donations to support development. However, forks and modifications of this project may not solicit donations, funding, or financial contributions related to their version of the project. The only official donation link for this project is the one provided by the original author in the official repository or documentation. If anyone else claims to accept donations on behalf of this project, it should be reported immediately.
