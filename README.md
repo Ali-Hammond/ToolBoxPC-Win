@@ -4,6 +4,11 @@ This guide will walk you through setting up, building, and running ToolboxPC-Win
 
 ---
 
+### Donations
+Donations are strictly voluntary, but are very much appreciated. If you would like to support Development, you may do so by visiting my [Official PayPalMe Page](https://www.paypal.com/paypalme/alihammond2).
+
+---
+
 # Important: Read the  [LICENSE](LICENSE)
 
 Before forking the ToolboxPC-Win repository or making any modifications to the code, please be sure to read the [LICENSE](LICENSE) file included in the repository. The LICENSE outlines the terms and conditions for using, modifying, and redistributing the code. By forking or contributing to this project, you agree to comply with the terms of the  [LICENSE](LICENSE). It is important to fully understand the permissions and limitations set by the license before proceeding with any changes or distribution.
