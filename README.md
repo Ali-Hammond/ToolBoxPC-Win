@@ -46,7 +46,7 @@ Open `Command Prompt` or `Git Bash`.
 Run the following command to clone the repository:
 
 ```
-git clone https://github.com/yourusername/ToolboxPC-Win.git
+git clone https://github.com/Ali-Hammond/ToolboxPC-Win.git
 ```
 ---
 
