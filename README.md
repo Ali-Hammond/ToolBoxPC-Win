@@ -4,9 +4,9 @@ This guide will walk you through setting up, building, and running ToolboxPC-Win
 
 ---
 
-# Important: Read the LICENSE
+# Important: Read the  [LICENSE](LICENSE)
 
-Before forking the ToolboxPC-Win repository or making any modifications to the code, please be sure to read the LICENSE file included in the repository. The LICENSE outlines the terms and conditions for using, modifying, and redistributing the code. By forking or contributing to this project, you agree to comply with the terms of the LICENSE. It is important to fully understand the permissions and limitations set by the license before proceeding with any changes or distribution.
+Before forking the ToolboxPC-Win repository or making any modifications to the code, please be sure to read the [LICENSE](LICENSE) file included in the repository. The LICENSE outlines the terms and conditions for using, modifying, and redistributing the code. By forking or contributing to this project, you agree to comply with the terms of the  [LICENSE](LICENSE). It is important to fully understand the permissions and limitations set by the license before proceeding with any changes or distribution.
 
 ---
 
@@ -81,6 +81,6 @@ The application should now run as a fully built, release version.
 
 ### Issue Reporting
 
-If you encounter any issues not covered in this guide, please feel free to open a new issue using the Issues tab on the project’s GitHub repository.
+If you encounter any issues not covered in this guide, please feel free to open a new issue using the [Issues tab](https://github.com/Ali-Hammond/ToolBoxPC-Win/issues)
 
 ***Before submitting an issue, make sure you are using the official version of ToolboxPC-Win. Issues related to unofficial versions or modifications may not be supported, as it's not original code.***
