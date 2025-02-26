@@ -66,7 +66,8 @@ Ensure that the Build Configuration is set to `Release`, not `Debug`.
 
 In `Qt Creator`, click the Build button (or press Ctrl + Shift + B) to start building the project.
 `Qt Creator` will use `CMake` to generate the necessary build files and build the project with the selected kit.
-The executable will be generated in the build directory<br>
+The executable will be generated in the build directory
+
 (e.g., `ToolboxPC-Win/build/ToolboxPC-Win-Desktop_Qt_6_8_2_MinGW_64bit-Release`).
 
 ---
