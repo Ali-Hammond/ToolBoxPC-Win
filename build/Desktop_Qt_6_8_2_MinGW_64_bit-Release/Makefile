@@ -223,6 +223,54 @@ ToolBoxPC-Win_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToolBoxPC-Win.dir\build.make CMakeFiles/ToolBoxPC-Win.dir/ToolBoxPC-Win_autogen/mocs_compilation.cpp.s
 .PHONY : ToolBoxPC-Win_autogen/mocs_compilation.cpp.s
 
+cpuusage.obj: cpuusage.cpp.obj
+.PHONY : cpuusage.obj
+
+# target to build an object file
+cpuusage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToolBoxPC-Win.dir\build.make CMakeFiles/ToolBoxPC-Win.dir/cpuusage.cpp.obj
+.PHONY : cpuusage.cpp.obj
+
+cpuusage.i: cpuusage.cpp.i
+.PHONY : cpuusage.i
+
+# target to preprocess a source file
+cpuusage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToolBoxPC-Win.dir\build.make CMakeFiles/ToolBoxPC-Win.dir/cpuusage.cpp.i
+.PHONY : cpuusage.cpp.i
+
+cpuusage.s: cpuusage.cpp.s
+.PHONY : cpuusage.s
+
+# target to generate assembly for a file
+cpuusage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToolBoxPC-Win.dir\build.make CMakeFiles/ToolBoxPC-Win.dir/cpuusage.cpp.s
+.PHONY : cpuusage.cpp.s
+
+gpuusage.obj: gpuusage.cpp.obj
+.PHONY : gpuusage.obj
+
+# target to build an object file
+gpuusage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToolBoxPC-Win.dir\build.make CMakeFiles/ToolBoxPC-Win.dir/gpuusage.cpp.obj
+.PHONY : gpuusage.cpp.obj
+
+gpuusage.i: gpuusage.cpp.i
+.PHONY : gpuusage.i
+
+# target to preprocess a source file
+gpuusage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToolBoxPC-Win.dir\build.make CMakeFiles/ToolBoxPC-Win.dir/gpuusage.cpp.i
+.PHONY : gpuusage.cpp.i
+
+gpuusage.s: gpuusage.cpp.s
+.PHONY : gpuusage.s
+
+# target to generate assembly for a file
+gpuusage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToolBoxPC-Win.dir\build.make CMakeFiles/ToolBoxPC-Win.dir/gpuusage.cpp.s
+.PHONY : gpuusage.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -289,6 +337,12 @@ help:
 	@echo ... ToolBoxPC-Win_autogen/mocs_compilation.obj
 	@echo ... ToolBoxPC-Win_autogen/mocs_compilation.i
 	@echo ... ToolBoxPC-Win_autogen/mocs_compilation.s
+	@echo ... cpuusage.obj
+	@echo ... cpuusage.i
+	@echo ... cpuusage.s
+	@echo ... gpuusage.obj
+	@echo ... gpuusage.i
+	@echo ... gpuusage.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

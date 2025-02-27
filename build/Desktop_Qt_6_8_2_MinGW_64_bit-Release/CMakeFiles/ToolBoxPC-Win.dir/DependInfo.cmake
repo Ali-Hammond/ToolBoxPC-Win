@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "ToolBoxPC-Win_autogen/timestamp" "custom" "ToolBoxPC-Win_autogen/deps"
   "C:/Users/Ali/Documents/GitHub/ToolBoxPC-Win/build/Desktop_Qt_6_8_2_MinGW_64_bit-Release/ToolBoxPC-Win_autogen/mocs_compilation.cpp" "CMakeFiles/ToolBoxPC-Win.dir/ToolBoxPC-Win_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/ToolBoxPC-Win.dir/ToolBoxPC-Win_autogen/mocs_compilation.cpp.obj.d"
+  "C:/Users/Ali/Documents/GitHub/ToolBoxPC-Win/cpuusage.cpp" "CMakeFiles/ToolBoxPC-Win.dir/cpuusage.cpp.obj" "gcc" "CMakeFiles/ToolBoxPC-Win.dir/cpuusage.cpp.obj.d"
+  "C:/Users/Ali/Documents/GitHub/ToolBoxPC-Win/gpuusage.cpp" "CMakeFiles/ToolBoxPC-Win.dir/gpuusage.cpp.obj" "gcc" "CMakeFiles/ToolBoxPC-Win.dir/gpuusage.cpp.obj.d"
   "C:/Users/Ali/Documents/GitHub/ToolBoxPC-Win/main.cpp" "CMakeFiles/ToolBoxPC-Win.dir/main.cpp.obj" "gcc" "CMakeFiles/ToolBoxPC-Win.dir/main.cpp.obj.d"
   "C:/Users/Ali/Documents/GitHub/ToolBoxPC-Win/mainwindow.cpp" "CMakeFiles/ToolBoxPC-Win.dir/mainwindow.cpp.obj" "gcc" "CMakeFiles/ToolBoxPC-Win.dir/mainwindow.cpp.obj.d"
   )

@@ -13,10 +13,14 @@ find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
 set(PROJECT_SOURCES
-        main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
+    main.cpp
+    mainwindow.cpp
+    mainwindow.h
+    mainwindow.ui
+    cpuusage.cpp    # Ensure cpuusage.cpp is included
+    cpuusage.h      # Ensure cpuusage.h is included
+    gpuusage.cpp    # Ensure gpuusage.cpp is included
+    gpuusage.h      # Ensure gpuusage.h is included
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -24,32 +28,19 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
     )
-# Define target properties for Android with Qt 6 as:
-#    set_property(TARGET ToolBoxPC-Win APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
-#                 ${CMAKE_CURRENT_SOURCE_DIR}/android)
-# For more information, see https://doc.qt.io/qt-6/qt-add-executable.html#target-creation
 else()
-    if(ANDROID)
-        add_library(ToolBoxPC-Win SHARED
-            ${PROJECT_SOURCES}
-        )
-# Define properties for Android with Qt 5 after find_package() calls as:
-#    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
-    else()
-        add_executable(ToolBoxPC-Win
-            ${PROJECT_SOURCES}
-        )
-    endif()
+    add_executable(ToolBoxPC-Win
+        ${PROJECT_SOURCES}
+    )
 endif()
 
 target_link_libraries(ToolBoxPC-Win PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 
-# Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
-# If you are developing for iOS or macOS you should consider setting an
-# explicit, fixed bundle identifier manually though.
+# Finalize the executable if Qt version is 6
 if(${QT_VERSION} VERSION_LESS 6.1.0)
-  set(BUNDLE_ID_OPTION MACOSX_BUNDLE_GUI_IDENTIFIER com.example.ToolBoxPC-Win)
+    set(BUNDLE_ID_OPTION MACOSX_BUNDLE_GUI_IDENTIFIER com.example.ToolBoxPC-Win)
 endif()
+
 set_target_properties(ToolBoxPC-Win PROPERTIES
     ${BUNDLE_ID_OPTION}
     MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
@@ -58,12 +49,24 @@ set_target_properties(ToolBoxPC-Win PROPERTIES
     WIN32_EXECUTABLE TRUE
 )
 
+# Link required libraries
+target_link_libraries(ToolBoxPC-Win PRIVATE
+    Qt${QT_VERSION_MAJOR}::Widgets
+    d3d11.lib
+    dxgi.lib
+    wbemuuid
+    ole32
+    comsupp.lib
+)
+
 include(GNUInstallDirs)
 install(TARGETS ToolBoxPC-Win
     BUNDLE DESTINATION .
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
+
+set(CMAKE_GENERATOR_PLATFORM x64)
 
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(ToolBoxPC-Win)

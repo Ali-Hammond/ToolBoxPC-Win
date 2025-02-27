@@ -16,6 +16,7 @@
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QProgressBar>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QWidget>
 
@@ -26,6 +27,9 @@ class Ui_MainWindow
 public:
     QWidget *centralwidget;
     QLabel *label;
+    QProgressBar *CPUprogressBar;
+    QProgressBar *GPUprogressBar;
+    QLabel *label_2;
     QMenuBar *menubar;
     QMenu *menuToolBoxPC_Windows;
     QStatusBar *statusbar;
@@ -40,11 +44,25 @@ public:
         label = new QLabel(centralwidget);
         label->setObjectName("label");
         label->setEnabled(true);
-        label->setGeometry(QRect(310, 0, 201, 61));
+        label->setGeometry(QRect(160, 50, 141, 61));
         label->setMinimumSize(QSize(0, 0));
         QFont font;
         font.setPointSize(20);
         label->setFont(font);
+        CPUprogressBar = new QProgressBar(centralwidget);
+        CPUprogressBar->setObjectName("CPUprogressBar");
+        CPUprogressBar->setGeometry(QRect(310, 70, 118, 23));
+        CPUprogressBar->setValue(24);
+        GPUprogressBar = new QProgressBar(centralwidget);
+        GPUprogressBar->setObjectName("GPUprogressBar");
+        GPUprogressBar->setGeometry(QRect(310, 110, 118, 23));
+        GPUprogressBar->setValue(24);
+        label_2 = new QLabel(centralwidget);
+        label_2->setObjectName("label_2");
+        label_2->setEnabled(true);
+        label_2->setGeometry(QRect(160, 90, 141, 61));
+        label_2->setMinimumSize(QSize(0, 0));
+        label_2->setFont(font);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -66,7 +84,8 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        label->setText(QCoreApplication::translate("MainWindow", "Placeholder Text", nullptr));
+        label->setText(QCoreApplication::translate("MainWindow", "CPU Usage:", nullptr));
+        label_2->setText(QCoreApplication::translate("MainWindow", "GPU Usage:", nullptr));
         menuToolBoxPC_Windows->setTitle(QString());
     } // retranslateUi
 

@@ -123,11 +123,43 @@ CMakeFiles/ToolBoxPC-Win.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ToolBoxPC-Win.dir/mainwindow.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ali\Documents\GitHub\ToolBoxPC-Win\mainwindow.cpp -o CMakeFiles\ToolBoxPC-Win.dir\mainwindow.cpp.s
 
+CMakeFiles/ToolBoxPC-Win.dir/cpuusage.cpp.obj: CMakeFiles/ToolBoxPC-Win.dir/flags.make
+CMakeFiles/ToolBoxPC-Win.dir/cpuusage.cpp.obj: CMakeFiles/ToolBoxPC-Win.dir/includes_CXX.rsp
+CMakeFiles/ToolBoxPC-Win.dir/cpuusage.cpp.obj: C:/Users/Ali/Documents/GitHub/ToolBoxPC-Win/cpuusage.cpp
+CMakeFiles/ToolBoxPC-Win.dir/cpuusage.cpp.obj: CMakeFiles/ToolBoxPC-Win.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ali\Documents\GitHub\ToolBoxPC-Win\build\Desktop_Qt_6_8_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ToolBoxPC-Win.dir/cpuusage.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ToolBoxPC-Win.dir/cpuusage.cpp.obj -MF CMakeFiles\ToolBoxPC-Win.dir\cpuusage.cpp.obj.d -o CMakeFiles\ToolBoxPC-Win.dir\cpuusage.cpp.obj -c C:\Users\Ali\Documents\GitHub\ToolBoxPC-Win\cpuusage.cpp
+
+CMakeFiles/ToolBoxPC-Win.dir/cpuusage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ToolBoxPC-Win.dir/cpuusage.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ali\Documents\GitHub\ToolBoxPC-Win\cpuusage.cpp > CMakeFiles\ToolBoxPC-Win.dir\cpuusage.cpp.i
+
+CMakeFiles/ToolBoxPC-Win.dir/cpuusage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ToolBoxPC-Win.dir/cpuusage.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ali\Documents\GitHub\ToolBoxPC-Win\cpuusage.cpp -o CMakeFiles\ToolBoxPC-Win.dir\cpuusage.cpp.s
+
+CMakeFiles/ToolBoxPC-Win.dir/gpuusage.cpp.obj: CMakeFiles/ToolBoxPC-Win.dir/flags.make
+CMakeFiles/ToolBoxPC-Win.dir/gpuusage.cpp.obj: CMakeFiles/ToolBoxPC-Win.dir/includes_CXX.rsp
+CMakeFiles/ToolBoxPC-Win.dir/gpuusage.cpp.obj: C:/Users/Ali/Documents/GitHub/ToolBoxPC-Win/gpuusage.cpp
+CMakeFiles/ToolBoxPC-Win.dir/gpuusage.cpp.obj: CMakeFiles/ToolBoxPC-Win.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ali\Documents\GitHub\ToolBoxPC-Win\build\Desktop_Qt_6_8_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ToolBoxPC-Win.dir/gpuusage.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ToolBoxPC-Win.dir/gpuusage.cpp.obj -MF CMakeFiles\ToolBoxPC-Win.dir\gpuusage.cpp.obj.d -o CMakeFiles\ToolBoxPC-Win.dir\gpuusage.cpp.obj -c C:\Users\Ali\Documents\GitHub\ToolBoxPC-Win\gpuusage.cpp
+
+CMakeFiles/ToolBoxPC-Win.dir/gpuusage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ToolBoxPC-Win.dir/gpuusage.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ali\Documents\GitHub\ToolBoxPC-Win\gpuusage.cpp > CMakeFiles\ToolBoxPC-Win.dir\gpuusage.cpp.i
+
+CMakeFiles/ToolBoxPC-Win.dir/gpuusage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ToolBoxPC-Win.dir/gpuusage.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ali\Documents\GitHub\ToolBoxPC-Win\gpuusage.cpp -o CMakeFiles\ToolBoxPC-Win.dir\gpuusage.cpp.s
+
 # Object files for target ToolBoxPC-Win
 ToolBoxPC__Win_OBJECTS = \
 "CMakeFiles/ToolBoxPC-Win.dir/ToolBoxPC-Win_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/ToolBoxPC-Win.dir/main.cpp.obj" \
-"CMakeFiles/ToolBoxPC-Win.dir/mainwindow.cpp.obj"
+"CMakeFiles/ToolBoxPC-Win.dir/mainwindow.cpp.obj" \
+"CMakeFiles/ToolBoxPC-Win.dir/cpuusage.cpp.obj" \
+"CMakeFiles/ToolBoxPC-Win.dir/gpuusage.cpp.obj"
 
 # External object files for target ToolBoxPC-Win
 ToolBoxPC__Win_EXTERNAL_OBJECTS =
@@ -135,6 +167,8 @@ ToolBoxPC__Win_EXTERNAL_OBJECTS =
 ToolBoxPC-Win.exe: CMakeFiles/ToolBoxPC-Win.dir/ToolBoxPC-Win_autogen/mocs_compilation.cpp.obj
 ToolBoxPC-Win.exe: CMakeFiles/ToolBoxPC-Win.dir/main.cpp.obj
 ToolBoxPC-Win.exe: CMakeFiles/ToolBoxPC-Win.dir/mainwindow.cpp.obj
+ToolBoxPC-Win.exe: CMakeFiles/ToolBoxPC-Win.dir/cpuusage.cpp.obj
+ToolBoxPC-Win.exe: CMakeFiles/ToolBoxPC-Win.dir/gpuusage.cpp.obj
 ToolBoxPC-Win.exe: CMakeFiles/ToolBoxPC-Win.dir/build.make
 ToolBoxPC-Win.exe: C:/Qt/6.8.2/mingw_64/lib/libQt6Widgets.a
 ToolBoxPC-Win.exe: C:/Qt/6.8.2/mingw_64/lib/libQt6Gui.a
@@ -143,7 +177,7 @@ ToolBoxPC-Win.exe: C:/Qt/6.8.2/mingw_64/lib/libQt6EntryPoint.a
 ToolBoxPC-Win.exe: CMakeFiles/ToolBoxPC-Win.dir/linkLibs.rsp
 ToolBoxPC-Win.exe: CMakeFiles/ToolBoxPC-Win.dir/objects1.rsp
 ToolBoxPC-Win.exe: CMakeFiles/ToolBoxPC-Win.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Ali\Documents\GitHub\ToolBoxPC-Win\build\Desktop_Qt_6_8_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ToolBoxPC-Win.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Ali\Documents\GitHub\ToolBoxPC-Win\build\Desktop_Qt_6_8_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ToolBoxPC-Win.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ToolBoxPC-Win.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
